@@ -1,0 +1,272 @@
+
+/* ---------- Roboto ----------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* ---------- Josefin ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+/* ---------- Pacifico -------- */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital@1&display=swap');
+
+
+.typed-out-name {
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 3s steps(100) forwards;
+	/* animation-delay: 2s; */
+	width:0;
+}
+
+.typed-out-title{
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 3.5s steps(80) forwards;
+	animation-delay: 1.5s;
+	width: 0;
+}
+
+@keyframes typing{
+	from{ width: 0;}
+	to { width: 100%; }
+}
+
+
+
+
+*{
+	scroll-behavior: smooth;
+
+	/* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.intro_header{
+/*	background-image: linear-gradient(to right bottom, #13e2eb, #55e7ed, #77ebef, #92f0f1, #aaf4f4);*/
+	background:linear-gradient(120deg, #1885bf, #FFFFFF);
+	height: 115vh;
+/*	border-radius: 0 0 50% 50%/0 0 30% 30%;*/
+/*	transform: scaleX(1.5);*/
+
+}
+
+.btn_menu, .btn_magazine_menu{
+	transition: all .7s;
+}
+
+.btn_menu:hover{
+/*	border: 1px solid black;*/
+/*	transition: all 0.3s;*/
+
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: all .2s ease-in-out;
+}
+
+.btn_magazine_menu:hover{
+	box-shadow: 0px 0px 10px #E8F9FD;
+	transition: all .2s ease-in-out;
+}
+
+
+.side_menu{
+	margin-top: 100px !important;
+
+}
+
+.menu_item{
+	transition: all .3s;
+	color: black !important;
+	font-size: 1.1em;
+	margin: 0 120px;
+}
+.menu_item:hover, .magazine_menu_item:hover{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: all .2s ease-in-out;
+	color: #258CC3 !important;
+}
+
+.magazine_menu_item{
+	transition: all .3s;
+	color: white !important;
+	font-size: 1.1em;
+	margin: 0 120px;
+
+}
+
+
+
+
+
+.info{
+/*	background-color: #c2f6f8;*/
+	background:linear-gradient(120deg, #1885bf, #FFFFFF);
+
+}
+
+.social_link{
+	text-decoration: none;
+	color:black;
+}
+
+.social_fb, .social_ig, .social_tw, .social_in{
+	transition: all .3s ease-in-out;
+}
+
+.social_fb:hover{
+	color: #1877F2;
+	transform: scale(1.5) !important;
+	transition: all .4s ease-in-out;
+}
+
+.social_ig:hover{
+	color: #962fbf;
+	transform: scale(1.5) !important;
+	transition: all .4s ease-in-out;
+}
+
+.social_tw:hover{
+	color: #1DA1F2;
+	transform: scale(1.5) !important;
+	transition: all .4s ease-in-out;
+}
+
+.social_in:hover{
+	color: #0077B5;
+	transform: scale(1.5) !important;
+	transition: all .4s ease-in-out;
+}
+
+
+.portfolio, .brand, .magazine, .training, .internship{
+/*	background:linear-gradient(120deg, #1885bf, #FFFFFF);*/
+/*	background:linear-gradient(270deg, #1885bf, #FFFFFF);*/
+
+/*	background-image: linear-gradient(to right top, #268dc3, #7ba6d4, #b1c1e2, #dcdef0, #ffffff);*/
+
+/*	background-image: linear-gradient(to left bottom, #ffffff, #dcdef0, #b1c1e2, #7ba6d4, #268dc3);*/
+/*	height: 100vh;*/
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+/*	background-image: linear-gradient(to left bottom, #a3c3f4, #9fd7ee, #b9e4e3, #dcede3, #f6f7f4);*/
+}
+
+.education{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.portfolio{
+	/* background: #E3F2FD */
+	background-image: linear-gradient(to left top, #e3f2fd, #ecf5fe, #f4f8ff, #fafbff, #ffffff);
+}
+
+.magazine{
+	background-image: linear-gradient(to right top, #e3f2fd, #ecf5fe, #f4f8ff, #fafbff, #ffffff);
+}
+
+.internship{
+	background-image: linear-gradient(to bottom, #e3f2fd, #ecf5fe, #f4f8ff, #fafbff, #ffffff);
+}
+
+
+.custom_title{
+	/* text-decoration:4px lightblue underline; */
+	/* margin-top: 120px !important; */
+}
+
+.custom_info{
+	border: none;
+	background: transparent !important;
+
+}
+
+
+.portfolio_img{
+	transition: all .5s ease-in-out;
+/*	border: 2px solid black;*/
+
+}
+
+.portfolio_img:hover{
+/*	background:linear-gradient(120deg, #1885bf, #FFFFFF);*/
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: all .3s ease-in-out;
+
+}
+
+.portfolio_link{
+	transition: all .3s;
+}
+
+.portfolio_link:hover{
+/*	padding-bottom: 5px;  /*check this out*/*/
+	transition: all .3s ease-in-out;
+/*	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+/*	text-decoration: 3px underline black !important;*/
+}
+
+
+
+.portfolio_btn, .magazine_btn{
+	transition: all .3s ease-in-out;
+}
+
+.portfolio_btn:hover, .magazine_btn:hover{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: all .3s ease-in-out;
+	background: none !important;
+	
+}
+
+
+
+.custom_footer{
+	background-image: linear-gradient(to top, #e3f2fd, #ecf5fe, #f4f8ff, #fafbff, #ffffff);
+}
+
+
+
+
+/* ---------------------------------- Portfolio Page Style ----------------------------------------- */
+
+.portfolio_container{
+	background:linear-gradient(120deg, #1885bf, #FFFFFF);
+
+}
+
+.portfolio_all_img{
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.portfolio_footer{
+	padding-top: 30px !important;
+}
+
+
+
+/* ------------------------------------ Magazine Page Style ----------------------------------------- */
+
+
+.magazine_container{
+	background-color: #040303;
+	/* background-image: linear-gradient(to right bottom, #000000, #121212, #1e1e1e, #2a2a2a, #363636); */
+}
+
+.magazine_footer{
+	padding-top: 30px !important;
+	background-color: #040303;
+	color: white;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
